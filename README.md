@@ -1,27 +1,131 @@
 # sprint6-capstone-backend-ique.moraes-moises.estevao-rodrigo.luiz-vinicius.prohmann
 
-
 # json-server-base
 
 Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
 
 ## Endpoints
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
-
 ### Cadastro
 
 POST /register <br/>
-POST /signup <br/>
-POST /users
-
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
-
 
 ### Login
 
 POST /login <br/>
-POST /signin
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+### Adverts
+
+Neste endpoint é possivel visualizar todos os anuncios
+
+`GET- /adverts`
+
+Authorization: ` Bearer Token`
+
+`FORMATO DA RESPOSTA - STATUS 201`
+
+```json
+[
+  {
+    "userId": 1,
+    "date": "10/11/2021",
+    "localization": "São Paulo - SP",
+    "description": "generc description",
+    "name": "Manutenção de geladeira",
+    "category": "Serviços",
+    "id": 1
+  }
+]
+```
+
+`Post- /adverts`
+
+para criar um novo anuncio é necessário passar a chave "UserID"
+
+Authorization: ` Bearer Token`
+
+`FORMATO DA REQUISIÇÃO - STATUS 201`
+
+```json
+{
+  "date": "10/11/2021",
+  "localization": "São Paulo - SP",
+  "description": "generc description",
+  "name": "TEste",
+  "category": "Serviços",
+  "userId": 1
+}
+```
+
+`FORMATO DA RESPOSTA - STATUS 201`
+
+```json
+{
+  "date": "10/11/2021",
+  "localization": "São Paulo - SP",
+  "description": "generc description",
+  "name": "TEste",
+  "category": "Serviços",
+  "userId": 1,
+  "id": 2
+}
+```
+
+### Routines
+
+Neste endpoint é possivel verificar as rotinas dos usuários
+
+`GET- /routines`
+
+Authorization: ` Bearer Token`
+
+`FORMATO DA RESPOSTA - STATUS 201`
+
+```json
+[
+  {
+    "userId": 1,
+    "date": "10/11/2021",
+    "localization": "São Paulo - SP",
+    "description": "generc description",
+    "name": "Manutenção de geladeira",
+    "category": "Serviços",
+    "id": 1
+  }
+]
+```
+
+`Post- /routines`
+
+para criar uma nova rotina é necessário passar o "UserId"
+
+Authorization: ` Bearer Token`
+
+`FORMATO DA REQUISIÇÃO - STATUS 201`
+
+```json
+{
+  "name": "Molhar as Plantas",
+  "category": "habitos",
+  "achieved": false,
+  "how_much_achieved": 0,
+  "userId": 1
+}
+```
+
+`FORMATO DA RESPOSTA - STATUS 201`
+
+```json
+{
+  "id": 1,
+  "name": "Molhar as Plantas",
+  "category": "habitos",
+  "achieved": false,
+  "how_much_achieved": 0,
+  "userId": 1
+}
+```
+
+### Forum
+
+`GET- /forum`
