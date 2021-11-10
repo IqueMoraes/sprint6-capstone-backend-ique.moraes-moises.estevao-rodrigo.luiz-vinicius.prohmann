@@ -4,12 +4,33 @@
       "email": "kenzinho@mail.com",
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
       "name": "Kenzinho",
-      "birth": "Wed Nov 10 1983 13:17:01 GMT-0300 (Horário Padrão de Brasília)",
+      "birth": "10/10/1893",
       "urlSocialMedia": "instagram.com/ffafelipe/",
-      
+      "outSince": "10/10/2021",
+      "bio": "generic Description",
       "id": 1
     }
   ],
   "forum": [],
-  "adverts": []
+  "adverts": [
+    {
+      "userId": 1,
+      "date": "10/11/2021",
+      "localization": "São Paulo - SP",
+      "description": "generc description",
+      "name": "Manutenção de geladeira",
+      "category": "Serviços",
+      "id": 1
+    }
+  ],
+  "routines": [
+    {
+      "id": 1,
+      "name": "Molhar as Plantas",
+      "category": "habitos",
+      "achieved": false,
+      "how_much_achieved": 0,
+      "userId": 1
+    }
+  ]
 }
