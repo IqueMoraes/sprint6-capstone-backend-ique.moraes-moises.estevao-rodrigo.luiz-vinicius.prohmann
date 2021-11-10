@@ -13,6 +13,7 @@ const rules = auth.rewriter({
   forum: 664,
   adverts: 640,
   achievement: 440,
+  routines: 640,
 });
 
 app.use(cors());
