@@ -8,7 +8,35 @@
       "urlSocialMedia": "instagram.com/ffafelipe/",
       "outSince": "10/10/2021",
       "bio": "generic Description",
-      "id": 1
+      "id": 1,
+      "points": 325,
+      "level": 2,
+      "achievments": [
+        {
+          "title": "Limpar espelho",
+          "category": "cleaning"
+        },
+        {
+          "title": "Limpar vidro",
+          "category": "cleaning"
+        },
+        {
+          "title": "Descongelar carne",
+          "category": "cooking"
+        },
+        {
+          "title": "Passar roupa",
+          "category": "maintenance"
+        },
+        {
+          "title": "Furar parede",
+          "category": "maintenance"
+        },
+        {
+          "title": "Trocar resistência do chuveiro",
+          "category": "eletricity"
+        }
+      ]
     },
     {
       "email": "alvaroramos@mail.com",
@@ -17,7 +45,31 @@
       "urlSocialMedia": "instagram.com/alvaroramos/",
       "birth": "05-04-1990",
       "outSince": "07-06-2018",
-      "id": 2
+      "id": 2,
+      "points": 180,
+      "level": 1,
+      "achievments": [
+        {
+          "title": "Trocar lâmpada",
+          "category": "eletricity"
+        },
+        {
+          "title": "Dobrar lençol de elástico",
+          "category": "maintenance"
+        },
+        {
+          "title": "Separar roupas para lavagem na máquina",
+          "category": "cleaning"
+        },
+        {
+          "title": "Trocar resistência do chuveiro",
+          "category": "eletricity"
+        },
+        {
+          "title": "Cuidar de planta",
+          "category": "maintenance"
+        }
+      ]
     }
   ],
   "forum": [
@@ -26,9 +78,7 @@
       "category": "general",
       "text": "Depois de identificar a marca do chuveiro e qual resistência deveria comprar, achei esse vídeo no youtube e consegui trocar minha primeira resistência!!",
       "author": "Kenzinho",
-      "assistantSites": [
-        "https://www.youtube.com/watch?v=THEnsfO0Fgw"
-      ],
+      "assistantSites": ["https://www.youtube.com/watch?v=THEnsfO0Fgw"],
       "date": "Wed Nov 10 2021 13:42:44 GMT-0300 (Horário Padrão de Brasília)",
       "id": 1,
       "comments": [],
@@ -40,9 +90,7 @@
       "category": "general",
       "text": "Pedi a furadeira emprestada e coloquei meu primeiro quadro. Vi umas dicas nesse site.",
       "author": "Kenzinho",
-      "assistantSites": [
-        "https://www.youtube.com/watch?v=THEnsfO0Fgw"
-      ],
+      "assistantSites": ["https://www.youtube.com/watch?v=THEnsfO0Fgw"],
       "date": "Wed Nov 10 2021 13:42:44 GMT-0300 (Horário Padrão de Brasília)",
       "comments": {
         "text": "Muito bom!!",
@@ -52,102 +100,102 @@
       "important": 0,
       "id": 2
     }
-    
   ],
 
   "achievment": [
     {
       "title": "Trocar lâmpada",
-    "category": "Eletricity"
-  },
-  {
-    "title": "Dobrar lençol de elástico",
-    "category": "maintenance"
-  },
-  {
-    "title": "Separar roupas para lavagem na máquina",
-    "category": "cleaning"
-  },
-  {
-    "title": "Cozinhar arroz, feijão e farofa",
-    "category":"cooking"
-  },
-  {
-    "title": "Limpar espelho",
-    "category":"cleaning"
-  },
-  {
-    "title": "Limpar vidro",
-    "category":"cleaning"
-  },
-  {
-    "title": "Passar pano",
-    "category":"cleaning"
-  },
-  {
-    "title": "Limpar privada",
-    "category":"cleaning"
-  },
-  {
-    "title": "Furar parede",
-    "category": "maintenance"
-  },
-  {
-    "title": "Trocar interruptor",
-    "category":"Eletricity"
-  },
-  {
-    "title": "Trocar resistência do chuveiro",
-    "category":"Eletricity"
-  },
-  {
-    "title": "Cuidar de planta",
-    "category": "maintenance"
-  },
-  {
-    "title": "Usar panela de pressão",
-    "category":"cooking"
-  },
-  {
-    "title": "Lavar louça",
-    "category": "cleaning"
-  },
-  {
-    "title": "Descongelar a geladeira",
-    "category": "maintenance"
-  },
-  {
-    "title": "Descongelar carne",
-    "category":"cooking"
-  },
-  {
-    "title": "Passar roupa",
-    "category": "maintenance"
-  },
-  {
-    "title": "Separar o lixo",
-    "category": "maintenance"
-  },
-  {
-    "title": "Bater o tapete",
-    "category":"cleaning"
-  },
-  {
-    "title": "Aspirar o sofá",
-    "category":"cleaning"
-  },
-  {
-    "title": "Limpar o teto",
-    "category": "cleaning"
-  },
-  {
-    "title": "Organizar contas",
-    "category": "bills"
-  },
-  {
-    "title": "Arear panela",
-    "category": "cooking"
-  }],
+      "category": "eletricity"
+    },
+    {
+      "title": "Dobrar lençol de elástico",
+      "category": "maintenance"
+    },
+    {
+      "title": "Separar roupas para lavagem na máquina",
+      "category": "cleaning"
+    },
+    {
+      "title": "Cozinhar arroz, feijão e farofa",
+      "category": "cooking"
+    },
+    {
+      "title": "Limpar espelho",
+      "category": "cleaning"
+    },
+    {
+      "title": "Limpar vidro",
+      "category": "cleaning"
+    },
+    {
+      "title": "Passar pano",
+      "category": "cleaning"
+    },
+    {
+      "title": "Limpar privada",
+      "category": "cleaning"
+    },
+    {
+      "title": "Furar parede",
+      "category": "maintenance"
+    },
+    {
+      "title": "Trocar interruptor",
+      "category": "eletricity"
+    },
+    {
+      "title": "Trocar resistência do chuveiro",
+      "category": "eletricity"
+    },
+    {
+      "title": "Cuidar de planta",
+      "category": "maintenance"
+    },
+    {
+      "title": "Usar panela de pressão",
+      "category": "cooking"
+    },
+    {
+      "title": "Lavar louça",
+      "category": "cleaning"
+    },
+    {
+      "title": "Descongelar a geladeira",
+      "category": "maintenance"
+    },
+    {
+      "title": "Descongelar carne",
+      "category": "cooking"
+    },
+    {
+      "title": "Passar roupa",
+      "category": "maintenance"
+    },
+    {
+      "title": "Separar o lixo",
+      "category": "maintenance"
+    },
+    {
+      "title": "Bater o tapete",
+      "category": "cleaning"
+    },
+    {
+      "title": "Aspirar o sofá",
+      "category": "cleaning"
+    },
+    {
+      "title": "Limpar o teto",
+      "category": "cleaning"
+    },
+    {
+      "title": "Organizar contas",
+      "category": "bills"
+    },
+    {
+      "title": "Arear panela",
+      "category": "cooking"
+    }
+  ],
 
   "adverts": [
     {
@@ -170,6 +218,4 @@
       "userId": 1
     }
   ]
-
 }
-
