@@ -105,95 +105,118 @@
   "achievment": [
     {
       "title": "Trocar lâmpada",
-      "category": "eletricity"
+      "category": "eletricity",
+      "id": 1
     },
     {
       "title": "Dobrar lençol de elástico",
-      "category": "maintenance"
+      "category": "maintenance",
+      "id": 2
     },
     {
       "title": "Separar roupas para lavagem na máquina",
-      "category": "cleaning"
+      "category": "cleaning",
+      "id": 3
     },
     {
       "title": "Cozinhar arroz, feijão e farofa",
-      "category": "cooking"
+      "category": "cooking",
+      "id":4 
     },
     {
       "title": "Limpar espelho",
-      "category": "cleaning"
+      "category": "cleaning",
+      "id": 5
     },
     {
       "title": "Limpar vidro",
-      "category": "cleaning"
+      "category": "cleaning",
+      "id": 6
     },
     {
       "title": "Passar pano",
-      "category": "cleaning"
+      "category": "cleaning",
+      "id": 7
     },
     {
       "title": "Limpar privada",
-      "category": "cleaning"
+      "category": "cleaning",
+      "id": 8
     },
     {
       "title": "Furar parede",
-      "category": "maintenance"
+      "category": "maintenance",
+      "id": 9
     },
     {
       "title": "Trocar interruptor",
-      "category": "eletricity"
+      "category": "eletricity",
+      "id": 10
     },
     {
       "title": "Trocar resistência do chuveiro",
-      "category": "eletricity"
+      "category": "eletricity",
+      "id": 11
     },
     {
       "title": "Cuidar de planta",
-      "category": "maintenance"
+      "category": "maintenance",
+      "id": 12
     },
     {
       "title": "Usar panela de pressão",
-      "category": "cooking"
+      "category": "cooking",
+      "id": 13
     },
     {
       "title": "Lavar louça",
-      "category": "cleaning"
+      "category": "cleaning",
+      "id": 14
     },
     {
       "title": "Descongelar a geladeira",
-      "category": "maintenance"
+      "category": "maintenance",
+      "id": 15
     },
     {
       "title": "Descongelar carne",
-      "category": "cooking"
+      "category": "cooking",
+      "id": 16
     },
     {
       "title": "Passar roupa",
-      "category": "maintenance"
+      "category": "maintenance",
+      "id": 17
     },
     {
       "title": "Separar o lixo",
-      "category": "maintenance"
+      "category": "maintenance",
+      "id": 18
     },
     {
       "title": "Bater o tapete",
-      "category": "cleaning"
+      "category": "cleaning",
+      "id": 19
     },
     {
       "title": "Aspirar o sofá",
-      "category": "cleaning"
+      "category": "cleaning",
+      "id": 20
     },
     {
       "title": "Limpar o teto",
-      "category": "cleaning"
+      "category": "cleaning",
+      "id": 21
     },
     {
       "title": "Organizar contas",
-      "category": "bills"
+      "category": "bills",
+      "id": 22
     },
     {
       "title": "Arear panela",
-      "category": "cooking"
+      "category": "cooking",
+      "id": 23
     }
   ],
 
