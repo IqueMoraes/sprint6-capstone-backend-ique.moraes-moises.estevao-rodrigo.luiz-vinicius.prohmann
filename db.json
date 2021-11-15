@@ -13,29 +13,40 @@
       "level": 2,
       "achievments": [
         {
+          "title": "Trocar lâmpada",
+          "category": "eletricity",
+          "id": 1
+        },
+        {
+          "title": "Dobrar lençol de elástico",
+          "category": "maintenance",
+          "id": 2
+        },
+        {
+          "title": "Separar roupas para lavagem na máquina",
+          "category": "cleaning",
+          "id": 3
+        },
+        {
+          "title": "Cozinhar arroz, feijão e farofa",
+          "category": "cooking",
+          "id":4 
+        },
+        {
           "title": "Limpar espelho",
-          "category": "cleaning"
+          "category": "cleaning",
+          "id": 5
         },
         {
           "title": "Limpar vidro",
-          "category": "cleaning"
+          "category": "cleaning",
+          "id": 6
         },
         {
-          "title": "Descongelar carne",
-          "category": "cooking"
+          "title": "Passar pano",
+          "category": "cleaning",
+          "id": 7
         },
-        {
-          "title": "Passar roupa",
-          "category": "maintenance"
-        },
-        {
-          "title": "Furar parede",
-          "category": "maintenance"
-        },
-        {
-          "title": "Trocar resistência do chuveiro",
-          "category": "eletricity"
-        }
       ]
     },
     {
@@ -50,24 +61,24 @@
       "level": 1,
       "achievments": [
         {
-          "title": "Trocar lâmpada",
-          "category": "eletricity"
+          "title": "Aspirar o sofá",
+          "category": "cleaning",
+          "id": 20
         },
         {
-          "title": "Dobrar lençol de elástico",
-          "category": "maintenance"
+          "title": "Limpar o teto",
+          "category": "cleaning",
+          "id": 21
         },
         {
-          "title": "Separar roupas para lavagem na máquina",
-          "category": "cleaning"
+          "title": "Organizar contas",
+          "category": "bills",
+          "id": 22
         },
         {
-          "title": "Trocar resistência do chuveiro",
-          "category": "eletricity"
-        },
-        {
-          "title": "Cuidar de planta",
-          "category": "maintenance"
+          "title": "Arear panela",
+          "category": "cooking",
+          "id": 23
         }
       ]
     }
