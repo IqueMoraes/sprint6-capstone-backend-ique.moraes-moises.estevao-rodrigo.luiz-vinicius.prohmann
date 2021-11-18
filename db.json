@@ -244,12 +244,180 @@
   ],
   "routines": [
     {
-      "id": 1,
-      "name": "Molhar as Plantas",
-      "category": "habitos",
-      "achieved": false,
-      "how_much_achieved": 0,
-      "userId": 1
+      "day": "25",
+      "month": "11",
+      "year": "2021",
+      "tasks": [
+        {
+          "taskId": 1,
+          "description": "Nova tentativa",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "isCompleted": true
+        },
+        {
+          "taskId": 2,
+          "description": "Atividad 2",
+          "startTime": "11:00",
+          "endTime": "12:30",
+          "isCompleted": false
+        },
+        {
+          "taskId": 3,
+          "description": "almoço",
+          "startTime": "13:00",
+          "endTime": "14:00",
+          "isCompleted": false
+        },
+        {
+          "taskId": 4,
+          "description": "descanso",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "isCompleted": true
+        },
+        {
+          "taskId": 5,
+          "description": "atividade 5",
+          "startTime": "18:00",
+          "endTime": "20:00",
+          "isCompleted": false
+        }
+      ],
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "day": "18",
+      "month": "11",
+      "year": "2021",
+      "tasks": [
+        {
+          "taskId": 1,
+          "description": "Nova tentativa",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "isCompleted": true
+        },
+        {
+          "taskId": 2,
+          "description": "Atividad 2",
+          "startTime": "11:00",
+          "endTime": "12:30",
+          "isCompleted": false
+        },
+        {
+          "taskId": 3,
+          "description": "almoço",
+          "startTime": "13:00",
+          "endTime": "14:00",
+          "isCompleted": false
+        },
+        {
+          "taskId": 4,
+          "description": "descanso",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "isCompleted": false
+        },
+        {
+          "taskId": 5,
+          "description": "atividade 5",
+          "startTime": "18:00",
+          "endTime": "20:00",
+          "isCompleted": false
+        }
+      ],
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "day": "23",
+      "month": "11",
+      "year": "2021",
+      "tasks": [
+        {
+          "taskId": 1,
+          "description": "Nova tentativa",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "isCompleted": true
+        },
+        {
+          "taskId": 2,
+          "description": "Atividad 2",
+          "startTime": "11:00",
+          "endTime": "12:30",
+          "isCompleted": true
+        },
+        {
+          "taskId": 3,
+          "description": "almoço",
+          "startTime": "13:00",
+          "endTime": "14:00",
+          "isCompleted": true
+        },
+        {
+          "taskId": 4,
+          "description": "descanso",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "isCompleted": true
+        },
+        {
+          "taskId": 5,
+          "description": "atividade 5",
+          "startTime": "18:00",
+          "endTime": "20:00",
+          "isCompleted": false
+        }
+      ],
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "day": "26",
+      "month": "11",
+      "year": "2021",
+      "tasks": [
+        {
+          "taskId": 1,
+          "description": "Nova tentativa",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "isCompleted": true
+        },
+        {
+          "taskId": 2,
+          "description": "Atividad 2",
+          "startTime": "11:00",
+          "endTime": "12:30",
+          "isCompleted": false
+        },
+        {
+          "taskId": 3,
+          "description": "almoço",
+          "startTime": "13:00",
+          "endTime": "14:00",
+          "isCompleted": false
+        },
+        {
+          "taskId": 4,
+          "description": "descanso",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "isCompleted": true
+        },
+        {
+          "taskId": 5,
+          "description": "atividade 5",
+          "startTime": "18:00",
+          "endTime": "20:00",
+          "isCompleted": false
+        }
+      ],
+      "userId": 1,
+      "id": 4
     }
   ]
 }
