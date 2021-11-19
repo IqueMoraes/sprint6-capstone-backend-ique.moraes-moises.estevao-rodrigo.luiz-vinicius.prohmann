@@ -7,10 +7,10 @@
       "birth": "10/10/1983",
       "urlSocialMedia": "instagram.com/kenzinho/",
       "outSince": "10/10/2021",
-      "bio": "generic Description",
+      "bio": "Programador, recém chegado na cidade de São Paulo.",
       "id": 1,
-      "points": 325,
-      "level": 2,
+      "points": 525,
+      "level": 5,
       "achievments": [
         {
           "title": "Trocar lâmpada",
@@ -30,7 +30,7 @@
         {
           "title": "Cozinhar arroz, feijão e farofa",
           "category": "cooking",
-          "id":4 
+          "id": 4
         },
         {
           "title": "Limpar espelho",
@@ -90,7 +90,7 @@
       "text": "Depois de identificar a marca do chuveiro e qual resistência deveria comprar, achei esse vídeo no youtube e consegui trocar minha primeira resistência!!",
       "author": "Kenzinho",
       "assistantSites": ["https://www.youtube.com/watch?v=THEnsfO0Fgw"],
-      "date": "Wed Nov 10 2021 13:42:44 GMT-0300 (Horário Padrão de Brasília)",
+      "date": "Nov 10 2021",
       "id": 1,
       "comments": [],
       "likes": 0,
@@ -102,7 +102,7 @@
       "text": "Pedi a furadeira emprestada e coloquei meu primeiro quadro. Vi umas dicas nesse site.",
       "author": "Kenzinho",
       "assistantSites": ["https://www.youtube.com/watch?v=THEnsfO0Fgw"],
-      "date": "Wed Nov 10 2021 13:42:44 GMT-0300 (Horário Padrão de Brasília)",
+      "date": "Nov 10 2021 ",
       "comments": {
         "text": "Muito bom!!",
         "author": "Kenzho"
@@ -132,7 +132,7 @@
     {
       "title": "Cozinhar arroz, feijão e farofa",
       "category": "cooking",
-      "id":4 
+      "id": 4
     },
     {
       "title": "Limpar espelho",
@@ -236,10 +236,28 @@
       "userId": 1,
       "date": "10/11/2021",
       "localization": "São Paulo - SP",
-      "description": "generc description",
-      "name": "Manutenção de geladeira",
-      "category": "Serviços",
+      "description": "Busco uma geladeira de duas portas frost-free. Contato por e-mail kenzinho@mail.com",
+      "name": "Compro geladeira usada",
+      "category": "Compra",
       "id": 1
+    },
+    {
+      "userId": 1,
+      "date": "10/11/2021",
+      "localization": "São Paulo - SP",
+      "description": "Planejamento e desenvolvimento para dar o start em sua ideia. Entre em contato pelo e-mail kenzinho@mail.com",
+      "name": "Freelance projetos iniciais Front-end",
+      "category": "Serviços",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "date": "10/11/2021",
+      "localization": "São Paulo - SP",
+      "description": "Sofá de 3 lugares de cor azul em ótimo estado. Veja no instagram! @kenzinho.",
+      "name": "Venda sofá",
+      "category": "Venda de usados",
+      "id": 3
     }
   ],
   "routines": [
@@ -253,7 +271,7 @@
           "description": "Nova tentativa",
           "startTime": "09:00",
           "endTime": "10:00",
-          "isCompleted": true
+          "isCompleted": false
         },
         {
           "taskId": 2,
@@ -274,7 +292,7 @@
           "description": "descanso",
           "startTime": "16:00",
           "endTime": "17:00",
-          "isCompleted": true
+          "isCompleted": false
         },
         {
           "taskId": 5,
@@ -294,7 +312,7 @@
       "tasks": [
         {
           "taskId": 1,
-          "description": "Nova tentativa",
+          "description": "tarefa 1",
           "startTime": "09:00",
           "endTime": "10:00",
           "isCompleted": true
@@ -304,27 +322,13 @@
           "description": "Atividad 2",
           "startTime": "11:00",
           "endTime": "12:30",
-          "isCompleted": false
+          "isCompleted": true
         },
         {
           "taskId": 3,
-          "description": "almoço",
+          "description": "tarefa 3",
           "startTime": "13:00",
           "endTime": "14:00",
-          "isCompleted": false
-        },
-        {
-          "taskId": 4,
-          "description": "descanso",
-          "startTime": "16:00",
-          "endTime": "17:00",
-          "isCompleted": false
-        },
-        {
-          "taskId": 5,
-          "description": "atividade 5",
-          "startTime": "18:00",
-          "endTime": "20:00",
           "isCompleted": false
         }
       ],
@@ -338,35 +342,35 @@
       "tasks": [
         {
           "taskId": 1,
-          "description": "Nova tentativa",
+          "description": "primeira",
           "startTime": "09:00",
           "endTime": "10:00",
-          "isCompleted": true
+          "isCompleted": false
         },
         {
           "taskId": 2,
-          "description": "Atividad 2",
+          "description": "segunda",
           "startTime": "11:00",
           "endTime": "12:30",
-          "isCompleted": true
+          "isCompleted": false
         },
         {
           "taskId": 3,
-          "description": "almoço",
+          "description": "terça",
           "startTime": "13:00",
           "endTime": "14:00",
-          "isCompleted": true
+          "isCompleted": false
         },
         {
           "taskId": 4,
-          "description": "descanso",
+          "description": "quarta",
           "startTime": "16:00",
           "endTime": "17:00",
-          "isCompleted": true
+          "isCompleted": false
         },
         {
           "taskId": 5,
-          "description": "atividade 5",
+          "description": "quinta",
           "startTime": "18:00",
           "endTime": "20:00",
           "isCompleted": false
@@ -385,7 +389,7 @@
           "description": "Nova tentativa",
           "startTime": "09:00",
           "endTime": "10:00",
-          "isCompleted": true
+          "isCompleted": false
         },
         {
           "taskId": 2,
@@ -406,7 +410,7 @@
           "description": "descanso",
           "startTime": "16:00",
           "endTime": "17:00",
-          "isCompleted": true
+          "isCompleted": false
         },
         {
           "taskId": 5,
@@ -418,6 +422,50 @@
       ],
       "userId": 1,
       "id": 4
+    },
+    {
+      "day": "19",
+      "month": "11",
+      "year": "2021",
+      "tasks": [
+        {
+          "taskId": 1,
+          "description": "11",
+          "startTime": "09:00",
+          "endTime": "10:00",
+          "isCompleted": false
+        },
+        {
+          "taskId": 2,
+          "description": "22",
+          "startTime": "11:00",
+          "endTime": "12:30",
+          "isCompleted": false
+        },
+        {
+          "taskId": 3,
+          "description": "33",
+          "startTime": "13:00",
+          "endTime": "14:00",
+          "isCompleted": false
+        },
+        {
+          "taskId": 4,
+          "description": "44",
+          "startTime": "16:00",
+          "endTime": "17:00",
+          "isCompleted": false
+        },
+        {
+          "taskId": 5,
+          "description": "55",
+          "startTime": "18:00",
+          "endTime": "20:00",
+          "isCompleted": false
+        }
+      ],
+      "userId": 1,
+      "id": 5
     }
   ]
 }
